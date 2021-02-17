@@ -3,7 +3,7 @@ import random
 minimum=int(input('minimum: '))
 maximum=int(input('maximum: '))
 
-answer = random.randrange(minimum, maximum)
+answer = random.randrange(minimum, maximum + 1)
 
 def guess(guess):
     guess=int(input('guess number: '))
