@@ -1,4 +1,8 @@
 import random
+print()
+print()
+print()
+print()
 
 minimum=int(input('minimum: '))
 maximum=int(input('maximum: '))
@@ -12,7 +16,7 @@ def guess(guess):
     else:
         if guess < answer:
             print('up')
-        else:minimum=int(input('minimum: '))
+        else:
             print('down')
 
 while guess != answer:
